@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="action.js" defer></script>
+  </head>
+  <body>
+    <div class="div1">
+      <div class="form">
+        <form action="backend">
+          <div>
+            <div>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your Email"
+              />
+            </div>
+            <div>
+              <input
+                type="number"
+                id="number"
+                name="number"
+                placeholder="Enter your number"
+              />
+            </div>
+            <div>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+              />
+            </div>
+            <div>
+              <input
+                type="password"
+                id="cpassword"
+                name="cpassword"
+                placeholder="Enter your cpassword"
+              />
+            </div>
+            <div class="button">
+              <button type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Contact</th>
+              <th>Password</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="name1"></td>
+              <td id="email1"></td>
+              <td id="contact1"></td>
+              <td id="password1"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <ul id="user-list"></ul>
+    </div>
+  </body>
+</html>
